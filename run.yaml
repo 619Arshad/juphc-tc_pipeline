@@ -4,8 +4,7 @@ metadata:
   generateName: tax-calculator-run-
 spec:
   pipelineRef:
-    name: tax-calculator-pipeline
-
+    value: https://github.com/619Arshad/juphc-tc_pipeline
   params:
     - name: repo-url
       value: https://github.com/619Arshad/taxCalculator
